@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gizlilik Politikası — POSTrack</title>
+<style>
+  :root { --navy: #1A3A5C; --bg: #f5f6f8; --card: #ffffff; --muted: #5b6b7b; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: #1c2430;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  header {
+    background: var(--navy); color: #fff; padding: 40px 20px; text-align: center;
+  }
+  header h1 { margin: 0 0 6px; font-size: 1.5rem; }
+  header p { margin: 0; opacity: .8; font-size: .95rem; }
+  .lang { margin-top: 16px; }
+  .lang a {
+    color: #fff; text-decoration: none; border: 1px solid rgba(255,255,255,.4);
+    padding: 6px 14px; border-radius: 20px; font-size: .85rem; margin: 0 4px;
+  }
+  .lang a:hover { background: rgba(255,255,255,.15); }
+  main { max-width: 760px; margin: -24px auto 60px; padding: 0 16px; }
+  .card {
+    background: var(--card); border-radius: 14px; padding: 28px 32px;
+    box-shadow: 0 4px 24px rgba(26,58,92,.08); margin-bottom: 20px;
+  }
+  h2 { color: var(--navy); font-size: 1.15rem; margin-top: 28px; }
+  h2:first-child { margin-top: 0; }
+  .updated { color: var(--muted); font-size: .9rem; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: .92rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #eef0f3; vertical-align: top; }
+  th { color: var(--navy); }
+  a { color: var(--navy); }
+  blockquote {
+    margin: 16px 0; padding: 12px 16px; background: #eef3f8;
+    border-left: 4px solid var(--navy); border-radius: 6px; color: var(--muted);
+  }
+  footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 20px; }
+  .section { display: none; }
+  .section.active { display: block; }
+</style>
+</head>
+<body>
+<header>
+  <h1>POSTrack</h1>
+  <p>Gizlilik Politikası / Privacy Policy</p>
+  <div class="lang">
+    <a href="#" onclick="showLang('tr');return false;">Türkçe</a>
+    <a href="#" onclick="showLang('en');return false;">English</a>
+  </div>
+</header>
+
+<main>
+  <!-- ===================== TÜRKÇE ===================== -->
+  <div id="tr" class="section active">
+    <div class="card">
+      <p class="updated">Son güncelleme: 17 Haziran 2026</p>
+      <p>Bu gizlilik politikası, <strong>POSTrack</strong> ("Uygulama")
+      mobil uygulamasının kişisel verileri nasıl topladığını, kullandığını ve koruduğunu
+      açıklar. Uygulama, işletmelerin tartılı/tezgah/masa satış işlemlerini yönetmesi için
+      tasarlanmış bir satış noktası (POS) uygulamasıdır.</p>
+
+      <h2>1. Veri Sorumlusu</h2>
+      <p>İşletme: <strong>POSTrack</strong><br>
+      İletişim: <a href="mailto:arifemreyazicioglu@gmail.com">arifemreyazicioglu@gmail.com</a></p>
+      <blockquote>Bu uygulama yalnızca yetkili işletme personeli tarafından kullanılır;
+      genel tüketicilere yönelik değildir.</blockquote>
+
+      <h2>2. Topladığımız Veriler</h2>
+      <p>Uygulama yalnızca hizmetin çalışması için gerekli verileri işler:</p>
+      <table>
+        <tr><th>Veri türü</th><th>Amaç</th><th>Saklama yeri</th></tr>
+        <tr><td>Kullanıcı adı / oturum (kimlik doğrulama)</td><td>Personelin giriş yapması</td><td>Cihazda şifreli depolama</td></tr>
+        <tr><td>Satış, ürün ve masa verileri</td><td>Sipariş ve satış işlemleri</td><td>İşletmenin sunucusu + cihazda yerel önbellek</td></tr>
+        <tr><td>Cihaz eşleştirme bilgisi (Bluetooth)</td><td>Tartı ve yazıcı bağlantısı</td><td>Cihazda yerel</td></tr>
+      </table>
+      <p>Uygulama; reklam kimliği, konum verisi, kişi listesi, fotoğraf veya benzeri
+      kişisel verileri <strong>toplamaz</strong>.</p>
+
+      <h2>3. Bluetooth Kullanımı</h2>
+      <p>Uygulama, <strong>yalnızca</strong> Bluetooth tartı ve termal yazıcı gibi çevre
+      birimlerine bağlanmak için Bluetooth iznini kullanır. Bluetooth taraması konum
+      belirlemek için kullanılmaz (Android'de <code>neverForLocation</code> bayrağı ile
+      beyan edilmiştir) ve hiçbir konum verisi toplanmaz veya paylaşılmaz.</p>
+
+      <h2>4. Verilerin Paylaşımı</h2>
+      <p>Uygulama, verileri üçüncü taraflarla pazarlama veya izleme amacıyla
+      <strong>paylaşmaz</strong>. Satış ve işlem verileri yalnızca işletmenin kendi backend
+      sunucusuna, hizmetin sağlanması amacıyla, şifreli (HTTPS) bağlantı üzerinden iletilir.
+      Uygulamada üçüncü taraf reklam, analitik veya izleme bileşeni bulunmamaktadır.</p>
+
+      <h2>5. Veri Güvenliği</h2>
+      <p>Oturum/kimlik bilgileri cihazda şifreli depolama (Keychain/Keystore) ile saklanır.
+      Sunucu iletişimi HTTPS üzerinden şifreli yapılır. Cihazdaki veriler işletme
+      personelinin erişimiyle sınırlıdır.</p>
+
+      <h2>6. Veri Saklama ve Silme</h2>
+      <p>Cihazdaki yerel veriler, uygulama kaldırıldığında silinir. Sunucudaki işletme
+      verileriyle ilgili saklama/silme talepleri için yukarıdaki iletişim adresine
+      başvurabilirsiniz.</p>
+
+      <h2>7. Çocukların Gizliliği</h2>
+      <p>Uygulama çocuklara yönelik değildir ve bilerek 13 yaş altı bireylerden veri
+      toplamaz.</p>
+
+      <h2>8. Değişiklikler</h2>
+      <p>Bu politika zaman zaman güncellenebilir. Güncel sürüm her zaman bu sayfada
+      yayımlanır ve "Son güncelleme" tarihi değiştirilir.</p>
+
+      <h2>9. İletişim</h2>
+      <p>Gizlilikle ilgili sorularınız için:
+      <a href="mailto:arifemreyazicioglu@gmail.com">arifemreyazicioglu@gmail.com</a></p>
+    </div>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div id="en" class="section">
+    <div class="card">
+      <p class="updated">Last updated: June 17, 2026</p>
+      <p>This Privacy Policy explains how the <strong>POSTrack</strong>
+      ("the App") mobile application collects, uses, and protects personal data. The App is
+      a point-of-sale (POS) application designed for businesses to manage
+      weighed/counter/table sales.</p>
+
+      <h2>1. Data Controller</h2>
+      <p>Business: <strong>POSTrack</strong><br>
+      Contact: <a href="mailto:arifemreyazicioglu@gmail.com">arifemreyazicioglu@gmail.com</a></p>
+      <blockquote>This App is used only by authorized business staff. It is not a
+      consumer-facing application.</blockquote>
+
+      <h2>2. Data We Collect</h2>
+      <p>The App processes only the data required for the service to function:</p>
+      <table>
+        <tr><th>Data type</th><th>Purpose</th><th>Storage</th></tr>
+        <tr><td>Username / session (authentication)</td><td>Staff login</td><td>Encrypted on-device storage</td></tr>
+        <tr><td>Sales, product, and table data</td><td>Processing orders and sales</td><td>Business's server + local cache</td></tr>
+        <tr><td>Device pairing info (Bluetooth)</td><td>Connecting to scale and printer</td><td>Local on device</td></tr>
+      </table>
+      <p>The App does <strong>not</strong> collect advertising identifiers, location data,
+      contacts, photos, or similar personal information.</p>
+
+      <h2>3. Bluetooth Usage</h2>
+      <p>The App uses Bluetooth <strong>only</strong> to connect to peripherals such as a
+      Bluetooth scale and thermal printer. Bluetooth scanning is not used to determine
+      location (declared with the <code>neverForLocation</code> flag on Android), and no
+      location data is collected or shared.</p>
+
+      <h2>4. Data Sharing</h2>
+      <p>The App does <strong>not</strong> share data with third parties for marketing or
+      tracking. Sales and transaction data are transmitted only to the business's own backend
+      server, over an encrypted (HTTPS) connection, solely to provide the service. The App
+      contains no third-party advertising, analytics, or tracking components.</p>
+
+      <h2>5. Data Security</h2>
+      <p>Session/credential data is stored using encrypted device storage
+      (Keychain/Keystore). Server communication is encrypted over HTTPS. On-device data is
+      limited to authorized business staff.</p>
+
+      <h2>6. Data Retention and Deletion</h2>
+      <p>Local data on the device is removed when the App is uninstalled. For requests
+      regarding retention/deletion of server-side business data, contact the address above.</p>
+
+      <h2>7. Children's Privacy</h2>
+      <p>The App is not directed at children and does not knowingly collect data from
+      individuals under 13.</p>
+
+      <h2>8. Changes</h2>
+      <p>This policy may be updated from time to time. The current version is always
+      published on this page, with an updated "Last updated" date.</p>
+
+      <h2>9. Contact</h2>
+      <p>For privacy questions:
+      <a href="mailto:arifemreyazicioglu@gmail.com">arifemreyazicioglu@gmail.com</a></p>
+    </div>
+  </div>
+</main>
+
+<footer>© 2026 POSTrack</footer>
+
+<script>
+  function showLang(l) {
+    document.getElementById('tr').classList.toggle('active', l === 'tr');
+    document.getElementById('en').classList.toggle('active', l === 'en');
+    document.documentElement.lang = l;
+    window.scrollTo(0, 0);
+  }
+</script>
+</body>
+</html>
